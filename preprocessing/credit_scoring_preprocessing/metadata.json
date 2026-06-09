@@ -1,0 +1,53 @@
+{
+    "dataset_name": "credit-g / Statlog German Credit Data",
+    "source": "OpenML data_id=31, originally from UCI Machine Learning Repository",
+    "raw_shape": [
+        1000,
+        21
+    ],
+    "processed_shape": [
+        1000,
+        62
+    ],
+    "train_shape": [
+        800,
+        61
+    ],
+    "test_shape": [
+        200,
+        61
+    ],
+    "target_column": "credit_risk",
+    "target_mapping": {
+        "good": 1,
+        "bad": 0,
+        "1": 1,
+        "2": 0
+    },
+    "numeric_features": [
+        "duration",
+        "credit_amount",
+        "installment_commitment",
+        "residence_since",
+        "age",
+        "existing_credits",
+        "num_dependents"
+    ],
+    "categorical_features": [
+        "checking_status",
+        "credit_history",
+        "purpose",
+        "savings_status",
+        "employment",
+        "personal_status",
+        "other_parties",
+        "property_magnitude",
+        "other_payment_plans",
+        "housing",
+        "job",
+        "own_telephone",
+        "foreign_worker"
+    ],
+    "random_state": 42,
+    "test_size": 0.2
+}

@@ -1,4 +1,3 @@
-%%writefile preprocessing/automate_Andi_Rizki_Mahesa.py
 import os
 import re
 import json
